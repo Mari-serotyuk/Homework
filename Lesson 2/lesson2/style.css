@@ -69,13 +69,13 @@ body{
 }
 
 .text{
+    max-width: 726px 0;
     text-align: center;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 36px;
     line-height: 49px;
-    width: 726px;
+    margin: 0 auto;
+    width: 726px; 
     height: 265px;
-    margin-right:auto;
-    margin-left: auto;
 }
