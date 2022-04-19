@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-one , .container-two{
+    max-width: 50%;
+    margin: 200px auto;
+    text-align: center;
+    position: relative;
+}
+
+.text-one , .text-two{
+    max-width: 696px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    width: 696px;
+    height: 246px;
+    position: relative;
+}
+
+.text-one::before{
+    content: "";
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    display: block;
+    top: -130px;
+    left: -335px;
+}
+
+.text-one::after{
+    content: "";
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    display: block;
+    top: 16px;
+    right: -316px;
+}
+
+.container-one::after{
+    content: "";
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    display: block;
+    left: -335px;
+    top: 130px;
+}
+
+.text-two::before{
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background: #5C98AB;
+    border-radius: 50%;
+    left: -30px;
+    top: -55px;
+}
+
+.text-two::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #BFDEFB;
+    border-radius: 50%;
+    right: -150px;
+    bottom: -30px;
+}
+
+.container-form{
+    max-width: 647px;
+    margin: -60px auto;
+}
+
+.input-holder, .input{
+    width: 100%;
+}
+
+.input-holder{
+    margin-bottom: 41px;
+    position: relative;
+}
+
+.input{
+    padding: 33px 0 14px 31px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 36px;
+    box-sizing: border-box;
+}
+
+.input::placeholder{
+    color: black;
+}
+
+.label{
+    position: absolute;
+    top: 14px;
+    left: 31px;
+}
+
+.button{
+    background-color: #5C98AB;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    width: 100%;
+    border: none;
+    padding: 21px 0;
+}
