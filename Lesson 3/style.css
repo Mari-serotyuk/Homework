@@ -17,37 +17,33 @@ body{
     position: relative;
 }
 
-.text-one::before{
+.element-one{
     content: "";
     position: absolute;
     width: 178px;
     height: 121px;
     background: #BFDEFB;
-    display: block;
-    top: -130px;
-    left: -335px;
+    left: 0;
+    top: 50px;
 }
 
-.text-one::after{
+.element-two{
     content: "";
     position: absolute;
     width: 178px;
     height: 121px;
     background: #BFDEFB;
-    display: block;
-    top: 16px;
-    right: -316px;
+    right: 0;
 }
 
-.container-one::after{
+.element-three{
     content: "";
     position: absolute;
     width: 178px;
     height: 121px;
     background: #BFDEFB;
-    display: block;
-    left: -335px;
-    top: 130px;
+    left: 0; 
+    bottom: 200px;
 }
 
 .text-two::before{
