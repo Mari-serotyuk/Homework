@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__header, .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__header{
+    margin: 35px auto;
+}
+
+.logo__img{
+    max-width: 41px;
+}
+
+.nav__li{
+    display: inline-block;
+}
+
+.nav__link{
+    color: #B8BECD;
+    margin-right: 35px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav__link-active{
+    color: black;
+}
+
+.button-container__button{
+    box-sizing: border-box;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    height: 44px;
+    width: 132px;
+    background: #FB8F1D;
+    color: white;
+}
+
+.button-container__button-transparent{
+    background: white;
+    color: #FB8F1D;
+}
+
+.container__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section__title{
+    max-width: 247px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+    position: relative;
+    margin-bottom: 73px;
+}
+
+.section__title::after{
+    content: "";
+    position: absolute;
+    width: 92px;
+    height: 5px;
+    background: #0F0B0B;
+    border-radius: 5px;
+    left: 0;
+    bottom: -20px;
+}
+
+.register-form{
+    width: 412px;
+}
+
+.register-form__input{
+    padding: 19px 0 20px 29px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.register-form__input::placeholder{
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.register-form__button{
+    width: 158px;
+    padding: 20px 0;
+    background: #1ABE84;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.section__gallery{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 55px;
+    align-content: flex-end;
+}
+
+.gallery__img{
+    position: relative;
+}
+
+.gallery__text{
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    background-color: white;
+    border-radius: 0px 10px;
+    padding: 20px 14px;
+    bottom: 0;
+    left: 0;
+}
+
+
